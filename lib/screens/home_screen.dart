@@ -35,12 +35,12 @@ class _HomeScreenState extends State<HomeScreen> {
                   OnPressed: () {}, text: 'New Meeting', icon: Icons.videocam),
               HomeMeetingButton(
                   OnPressed: () {},
-                  text: 'New Meeting',
-                  icon: Icons.abc_outlined),
+                  text: 'Join Meeting',
+                  icon: Icons.add_box_rounded),
               HomeMeetingButton(
-                  OnPressed: () {}, text: 'New Meeting', icon: Icons.videocam),
+                  OnPressed: () {}, text: 'Schedule Meeting', icon: Icons.calendar_today),
               HomeMeetingButton(
-                  OnPressed: () {}, text: 'New Meeting', icon: Icons.videocam),
+                  OnPressed: () {}, text: 'Share Screen', icon: Icons.arrow_upward_rounded),
             ],
           ),
           const Expanded(
